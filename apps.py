@@ -87,5 +87,5 @@ if submit_button:
 	elif not re.match(regex,mailTo):
 		st.error('Enter correct Email')
 	else:
-		dest = "C:\Users\Akshat Girdhar\Desktop\V"
+		dest = "F:\V"
 		mainScript(singer,int(n),int(dur),mailTo)
